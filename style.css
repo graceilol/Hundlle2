@@ -12,8 +12,56 @@
 }
 body {
   background-color: var(--primary-color);
+  font-family: var(--open-sans);
+  color: #fff;
 }
 .container {
   background: url(/images/bg-mobile.svg) no-repeat center center/cover;
   padding: 25px;
+}
+.nav-bar img {
+  width: 160px;
+  height: 60px;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-img img {
+  width: 353px;
+  height: 253px;
+  margin: 10px 0px;
+}
+.main-text {
+  width: 400px;
+  text-align: center;
+}
+.main-text h1 {
+  font-family: var(--poppins);
+  font-weight: var(--bold);
+  margin: 25px 0px;
+}
+.main-text p {
+  font-size: 18px;
+}
+.btn {
+  display: inline-block;
+  width: 200px;
+  height: 45px;
+  font-size: 16px;
+  margin: 29px;
+  outline: none;
+  border-radius: 25px;
+  background-color: aliceblue;
+  padding-top: 10px;
+  text-decoration: none;
+  color: #2e2e2e;
+  box-shadow: 1px 1px 9px 1px rgba(0, 0, 0, 0.5);
+}
+.socials img {
+  width: 35px;
+  height: 35px;
+  margin: 10px;
 }
